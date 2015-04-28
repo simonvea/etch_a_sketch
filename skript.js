@@ -11,4 +11,10 @@ $(document).ready(function() {
     $("#innhold > div").hover(function() {
        $(this).addClass("hover");
     });
+    
+    
 });
+
+function reset() {
+        $("div").removeClass("hover");
+    };
