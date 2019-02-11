@@ -20,8 +20,8 @@ body {
 div {
 width: 1px;
 height: 1px;
-padding: 2px;
-margin: 2px;
+padding: 1px;
+margin: 1px;
 background-color: black;
 float: left;
 }

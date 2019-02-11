@@ -1,19 +1,20 @@
 var x = 16;
 
 function reset() {
-    //$("div").removeClass("hover");
+    $("#innhold").empty();
    
     };
 
 $(document).ready(function() {
     
     $("#button").click(function() {
+        
         var x = prompt("Skriv inn størrelse på ramme i antall bokser  (f.eks 16 vil gi en box med 16x16) (minimum 16)")
-        $("#innhold").empty();
+        
         
         if(x<16) {x = 16};
         
-        var y = (500/x)-8;
+        var y = (500/x)-4;
     
         for(var i=0;i<x*x;i++){
         $("#innhold").append("<div></div>");
@@ -29,9 +30,7 @@ $(document).ready(function() {
     });  
     
     
-    var y = (500/x)-8;
-    
-    //if(x<16) {x = 16};
+    var y = (500/x)-4;
     
     
     for(var i=0;i<x*x;i++){
